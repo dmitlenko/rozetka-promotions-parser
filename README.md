@@ -28,5 +28,5 @@ rozetka-promotions-parser-master
 1. Run the Command Prompt inside the extracted folder.
 2. Execute the next command to start parsing `scrapy crawl rozetka -o <filename>.<extension>`. 
 Where `<filename>` is the name of a file to which you want to save scraped data and `<extension>` is the format of the file (available formats: `json`,`jsonlines`,`xml`,`csv`)
-3. Wait until the application scrapes the data.
+3. Wait until the application scrapes the data. The file should appear in the current folder.
 4. Done!
