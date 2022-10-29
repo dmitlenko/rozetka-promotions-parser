@@ -13,7 +13,7 @@ class RozetkaSpider(scrapy.Spider):
         
         # stop parsing if discounts is not found
         if not response.css("span.promo-tile__rest-quantity::text"):
-            raise CloseSpider("Виконання завершено")
+            raise CloseSpider("Parse completed")
 
         # parse discounts
         for discount in discounts:
