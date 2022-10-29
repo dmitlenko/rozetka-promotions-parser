@@ -1,6 +1,6 @@
 # Rozetka.com.ua active promotions parser
 The project uses Python and Scrapy library
-## Installation tutorial
+## Installation tutorial ([Інструкція українською](README_UA.md))
 1. Download and install the latest Python version from the official [Python website](https://www.python.org/).
 2. Install scrapy library using pip.
     1) Open Command Prompt using administrator access on your computer.
